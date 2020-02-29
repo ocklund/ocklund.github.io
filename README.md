@@ -1,6 +1,6 @@
 # ocklund.github.io
 
-An AMP powered personal home page: https://www.ocklund.com
+An AMP powered personal home page: https://www.ocklund.se
 
 Currently show-casing a new AMP beta feature: AMP Story component
 

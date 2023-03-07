@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>ocklund.se</title>
-    <meta name="description" content="Officiell hemsida för Kenneth Ocklund">
+    <title>ocklund.se - Kontakt</title>
+    <meta name="description" content="Kontakta Kenneth Ocklund">
     <link rel="shortcut icon" href="./favicon.ico">
-    <link rel="canonical" href="https://www.ocklund.se/index.html">
+    <link rel="canonical" href="https://www.ocklund.se/contact.html">
     <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
     <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
     <style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
     <noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
@@ -47,31 +48,32 @@
           </button>
         </li>
       </ul>
-      <ul>
-        <li><a href="https://www.ocklund.com/">English</a></li>
-      </ul>
     </nav>
     <main>
       <hgroup>
         <h1><a href="./index.html">ocklund.se</a></h1>
-        <h2>Officiell hemsida</h2>
+        <h2>Kontakt</h2>
       </hgroup>
+      <p>Du kan nå mig genom att skicka mig ett meddelande via någon av dessa:</p>
+      <ul>
+        <li><a href="https://twitter.com/ocklund" target="_blank">Twitter</a></li>
+        <li><a href="https://mastodon.social/@ocklund" target="_blank">Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/in/ocklund/" target="_blank">LinkedIn</a></li>
+      </ul>
       <p>
-        Hej där! Jag heter Kenneth Ocklund och det här är min hemsida.
+        Eller, om du vill kan du också skicka ett email direkt till mig genom formuläret nedan.
       </p>
-      <p>
-        Jag skriver kod och fiction. Om du vill veta mer har jag en länk till dig här: <a href="./about.html">Om</a>
-      </p>
-      <p>
-        Jag är författaren till böckerna "Shivas tredje öga" och "Kalis fjärde hand". Just nu håller jag
-        på att skriva min första bok på engelska: "Rock Hopper". Du kan kolla in alla här: <a href="./books.html">Böcker</a>
-      </p>
-      <p>
-        Om jag skulle vilja kontakta mig, skulle jag börja här: <a href="./contact.html">Kontakt</a>. Ingen stress.
-      </p>
-      <p>
-        Nu har vi gått igenom hela min <a href="./books.html">B</a> <a href="./about.html">O</a> <a href="./contact.html">K</a>. Inte illa.
-      </p>
+      <form action="https://getform.io/f/35b75022-8969-488f-9835-81c418f0b308" method="POST">
+        <label for="name">Namn</label>
+        <input type="text" id="name" name="name" placeholder="Ditt namn här" required>
+        <label for="email">Emailadress</label>
+        <input type="email" id="email" name="email" placeholder="Din emailadress här" required>
+        <small>Din emailadress stannar hos mig och delas inte ut till någon annan.</small>
+        <label for="message">Meddelande</label>
+        <textarea id="message" name="message" placeholder="Ditt meddelande här" required></textarea>
+        <input type="hidden" name="_gotcha">
+        <button type="submit">Skicka</button>
+      </form>
     </main>
     <footer>
       <small>&copy; 2023 Kenneth Ocklund.<small>
